@@ -18,49 +18,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wQJ-LK-PtB">
-                                <rect key="frame" x="207" y="43" width="206" height="818"/>
-                                <color key="backgroundColor" red="0.70000664099999999" green="0.47512163639999999" blue="0.91545050760000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q8O-qh-eIY">
-                                <rect key="frame" x="0.0" y="44" width="207" height="207"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NUU-43-nIF">
+                                <rect key="frame" x="0.0" y="241" width="414" height="424"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QAp-tl-iWK">
+                                        <rect key="frame" x="121.5" y="131" width="171" height="162"/>
+                                        <color key="backgroundColor" red="0.70000664099999999" green="0.47512163639999999" blue="0.91545050760000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="0.34614456469999999" green="0.91545050760000002" blue="0.8814811991" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gt1-Qs-btd">
-                                <rect key="frame" x="0.0" y="654" width="207" height="207"/>
-                                <color key="backgroundColor" red="0.34614456469999999" green="0.91545050760000002" blue="0.8814811991" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0U9-mY-bd1">
-                                <rect key="frame" x="0.0" y="350" width="207" height="206"/>
-                                <color key="backgroundColor" red="0.34614456469999999" green="0.91545050760000002" blue="0.8814811991" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="centerY" secondItem="NUU-43-nIF" secondAttribute="centerY" id="Qnd-V1-ur7"/>
+                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="top" secondItem="NUU-43-nIF" secondAttribute="top" constant="131" id="Wob-1I-t2z"/>
+                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="width" secondItem="NUU-43-nIF" secondAttribute="height" multiplier="1:1" constant="-253" id="faV-ke-gEp"/>
+                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="centerX" secondItem="NUU-43-nIF" secondAttribute="centerX" id="mvj-xT-Oju"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.87527273968298513" green="0.87104436895987902" blue="0.87950111040609136" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="wQJ-LK-PtB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="207" id="1uS-oR-CMY"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q8O-qh-eIY" secondAttribute="bottom" constant="611" id="4Ky-KU-dl9"/>
-                            <constraint firstItem="0U9-mY-bd1" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="5t5-36-oqB"/>
-                            <constraint firstItem="0U9-mY-bd1" firstAttribute="top" secondItem="Q8O-qh-eIY" secondAttribute="bottom" constant="99" id="9tG-Ai-ebf"/>
-                            <constraint firstItem="Gt1-Qs-btd" firstAttribute="trailing" secondItem="0U9-mY-bd1" secondAttribute="trailing" id="CtF-TU-Jba"/>
-                            <constraint firstItem="Gt1-Qs-btd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="654" id="EFn-pe-sHZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gt1-Qs-btd" secondAttribute="bottom" constant="1" id="Set-cQ-wD3"/>
-                            <constraint firstItem="wQJ-LK-PtB" firstAttribute="leading" secondItem="0U9-mY-bd1" secondAttribute="trailing" id="Vfz-9c-aUK"/>
-                            <constraint firstItem="Gt1-Qs-btd" firstAttribute="leading" secondItem="0U9-mY-bd1" secondAttribute="leading" id="Xm5-ti-G6e"/>
-                            <constraint firstItem="Q8O-qh-eIY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aKd-Aa-Phf"/>
-                            <constraint firstItem="wQJ-LK-PtB" firstAttribute="leading" secondItem="Q8O-qh-eIY" secondAttribute="trailing" id="abA-O1-SwB"/>
-                            <constraint firstItem="Q8O-qh-eIY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eZw-W2-GZD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wQJ-LK-PtB" secondAttribute="bottom" constant="1" id="h1A-VA-hJO"/>
-                            <constraint firstItem="Gt1-Qs-btd" firstAttribute="top" secondItem="0U9-mY-bd1" secondAttribute="bottom" constant="98" id="i0o-rd-gFr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wQJ-LK-PtB" secondAttribute="trailing" constant="1" id="rBJ-CO-4c4"/>
-                            <constraint firstItem="Gt1-Qs-btd" firstAttribute="trailing" secondItem="Q8O-qh-eIY" secondAttribute="trailing" id="w8c-Fy-kdS"/>
-                            <constraint firstItem="Gt1-Qs-btd" firstAttribute="leading" secondItem="Q8O-qh-eIY" secondAttribute="leading" id="z3s-PF-3uD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="wQJ-LK-PtB" secondAttribute="top" constant="1" id="zgm-zU-C4b"/>
+                            <constraint firstItem="NUU-43-nIF" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="1dr-ub-3f5"/>
+                            <constraint firstItem="NUU-43-nIF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UCc-9B-vKD"/>
+                            <constraint firstItem="NUU-43-nIF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="197" id="fKT-wc-IRF"/>
+                            <constraint firstItem="NUU-43-nIF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hOr-oK-W6W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
         </scene>
     </scenes>
 </document>
