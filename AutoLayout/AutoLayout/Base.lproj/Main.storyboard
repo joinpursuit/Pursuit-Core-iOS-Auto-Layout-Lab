@@ -18,29 +18,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NUU-43-nIF">
-                                <rect key="frame" x="0.0" y="241" width="414" height="424"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QAp-tl-iWK">
-                                        <rect key="frame" x="121.5" y="131" width="171" height="162"/>
-                                        <color key="backgroundColor" red="0.70000664099999999" green="0.47512163639999999" blue="0.91545050760000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </view>
-                                </subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xai-cQ-Dfh">
+                                <rect key="frame" x="123" y="398" width="90" height="90"/>
                                 <color key="backgroundColor" red="0.34614456469999999" green="0.91545050760000002" blue="0.8814811991" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sid-zH-iij">
+                                <rect key="frame" x="213" y="398" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.6921218938" green="0.42596773240000002" blue="0.88895939089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="centerY" secondItem="NUU-43-nIF" secondAttribute="centerY" id="Qnd-V1-ur7"/>
-                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="top" secondItem="NUU-43-nIF" secondAttribute="top" constant="131" id="Wob-1I-t2z"/>
-                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="width" secondItem="NUU-43-nIF" secondAttribute="height" multiplier="1:1" constant="-253" id="faV-ke-gEp"/>
-                                    <constraint firstItem="QAp-tl-iWK" firstAttribute="centerX" secondItem="NUU-43-nIF" secondAttribute="centerX" id="mvj-xT-Oju"/>
+                                    <constraint firstAttribute="width" secondItem="sid-zH-iij" secondAttribute="height" multiplier="1:1" id="xse-AU-idQ"/>
                                 </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H6D-F7-8b4">
+                                <rect key="frame" x="123" y="308" width="180" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.12209720694293177" green="0.88848350257106601" blue="0.4858474250664519" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-F2-4sS">
+                                <rect key="frame" x="123" y="486" width="180" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1220972069" green="0.88848350259999997" blue="0.48584742510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.87527273968298513" green="0.87104436895987902" blue="0.87950111040609136" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="NUU-43-nIF" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="1dr-ub-3f5"/>
-                            <constraint firstItem="NUU-43-nIF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UCc-9B-vKD"/>
-                            <constraint firstItem="NUU-43-nIF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="197" id="fKT-wc-IRF"/>
-                            <constraint firstItem="NUU-43-nIF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hOr-oK-W6W"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xai-cQ-Dfh" secondAttribute="trailing" constant="201" id="0fI-Lx-XjI"/>
+                            <constraint firstItem="sid-zH-iij" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="354" id="6sr-ng-Gtg"/>
+                            <constraint firstItem="xai-cQ-Dfh" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-10" id="JbB-Vl-Q7h"/>
+                            <constraint firstItem="sid-zH-iij" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="213" id="hRf-zt-psf"/>
+                            <constraint firstItem="sid-zH-iij" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-10" id="qca-05-zrp"/>
+                            <constraint firstItem="xai-cQ-Dfh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-39" id="t2T-im-bcd"/>
+                            <constraint firstItem="xai-cQ-Dfh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="354" id="wNl-8n-7VA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
