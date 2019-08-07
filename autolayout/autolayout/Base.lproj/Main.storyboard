@@ -19,30 +19,39 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aoz-Or-Ema">
-                                <rect key="frame" x="0.0" y="241" width="414" height="414"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NwB-qe-oiy">
-                                        <rect key="frame" x="87" y="87" width="240" height="240"/>
-                                        <color key="backgroundColor" red="0.96857929170000001" green="0.1763465883" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="NwB-qe-oiy" secondAttribute="height" multiplier="1:1" id="ECd-5c-mRj"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
+                                <rect key="frame" x="117" y="403" width="90" height="90"/>
                                 <color key="backgroundColor" red="0.27867130670000001" green="1" blue="0.92866836630000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstItem="NwB-qe-oiy" firstAttribute="centerX" secondItem="Aoz-Or-Ema" secondAttribute="centerX" id="2ni-fC-2L5"/>
                                     <constraint firstAttribute="width" secondItem="Aoz-Or-Ema" secondAttribute="height" multiplier="1:1" id="NOs-qo-TUj"/>
-                                    <constraint firstItem="NwB-qe-oiy" firstAttribute="leading" secondItem="Aoz-Or-Ema" secondAttribute="leading" constant="87" id="Uij-cL-vmG"/>
-                                    <constraint firstItem="NwB-qe-oiy" firstAttribute="centerY" secondItem="Aoz-Or-Ema" secondAttribute="centerY" id="ysG-Hi-eMj"/>
                                 </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NwB-qe-oiy">
+                                <rect key="frame" x="117" y="314" width="180" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.17263298860000001" green="1" blue="0.18169561070000001" alpha="0.84821192779999999" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EXg-iL-nIp">
+                                <rect key="frame" x="207" y="403" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.91836726665496826" green="0.20029589533805847" blue="0.96867829561233521" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EXg-iL-nIp" secondAttribute="height" multiplier="1:1" id="b1Q-xe-5iw"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QHY-jZ-brx">
+                                <rect key="frame" x="117" y="491" width="180" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.17263298860000001" green="1" blue="0.18169561070000001" alpha="0.84821192779999999" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Aoz-Or-Ema" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1PK-Gr-twj"/>
-                            <constraint firstAttribute="trailing" secondItem="Aoz-Or-Ema" secondAttribute="trailing" id="ixR-eP-I44"/>
-                            <constraint firstItem="Aoz-Or-Ema" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mIv-0z-oKL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Aoz-Or-Ema" secondAttribute="bottom" constant="369" id="8gy-5C-Tvu"/>
+                            <constraint firstItem="EXg-iL-nIp" firstAttribute="leading" secondItem="Aoz-Or-Ema" secondAttribute="trailing" id="FMG-w0-z4P"/>
+                            <constraint firstItem="Aoz-Or-Ema" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="359" id="Igz-iG-d2m"/>
+                            <constraint firstItem="EXg-iL-nIp" firstAttribute="bottom" secondItem="Aoz-Or-Ema" secondAttribute="bottom" id="NjQ-Nv-Elr"/>
+                            <constraint firstItem="EXg-iL-nIp" firstAttribute="width" secondItem="EXg-iL-nIp" secondAttribute="height" multiplier="1:1" id="OLe-lh-JVh"/>
+                            <constraint firstItem="EXg-iL-nIp" firstAttribute="top" secondItem="Aoz-Or-Ema" secondAttribute="top" id="cN9-5k-2D2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Aoz-Or-Ema" secondAttribute="trailing" constant="207" id="jGl-jz-beI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
