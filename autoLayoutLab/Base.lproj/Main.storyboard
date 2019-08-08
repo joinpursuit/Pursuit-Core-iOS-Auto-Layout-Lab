@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autoLayoutLab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dg1-bB-V0A">
+                                <rect key="frame" x="117" y="492" width="180" height="90"/>
+                                <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kOZ-JG-Ikc">
+                                <rect key="frame" x="117" y="402" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.63387794149999999" green="1" blue="0.95173203409999996" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfT-K9-1A1">
+                                <rect key="frame" x="207" y="402" width="90" height="90"/>
+                                <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="60A-kr-Z9a">
+                                <rect key="frame" x="117" y="313" width="180" height="90"/>
+                                <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dg1-bB-V0A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="448" id="5s3-si-LLC"/>
+                            <constraint firstItem="60A-kr-Z9a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="269" id="7eF-XT-VHg"/>
+                            <constraint firstItem="pfT-K9-1A1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="358" id="8Cm-eN-Hes"/>
+                            <constraint firstItem="dg1-bB-V0A" firstAttribute="height" secondItem="kOZ-JG-Ikc" secondAttribute="height" id="F3Y-oN-CXL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pfT-K9-1A1" secondAttribute="trailing" constant="117" id="Gcf-BG-sK2"/>
+                            <constraint firstItem="kOZ-JG-Ikc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="GuN-kr-SKB"/>
+                            <constraint firstItem="kOZ-JG-Ikc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="358" id="Hlj-mr-NrO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="60A-kr-Z9a" secondAttribute="bottom" constant="459" id="Q0b-GM-Fzh"/>
+                            <constraint firstItem="dg1-bB-V0A" firstAttribute="width" secondItem="kOZ-JG-Ikc" secondAttribute="width" multiplier="2" id="UUg-AL-zb2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kOZ-JG-Ikc" secondAttribute="trailing" constant="207" id="YGg-VT-KeB"/>
+                            <constraint firstItem="pfT-K9-1A1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="207" id="bg5-oa-PGP"/>
+                            <constraint firstItem="60A-kr-Z9a" firstAttribute="width" secondItem="kOZ-JG-Ikc" secondAttribute="width" multiplier="2" id="fwh-Aa-cvL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kOZ-JG-Ikc" secondAttribute="bottom" constant="370" id="g92-TI-FGB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pfT-K9-1A1" secondAttribute="bottom" constant="370" id="jNV-N9-LXt"/>
+                            <constraint firstItem="60A-kr-Z9a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="jxy-cD-Wdr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dg1-bB-V0A" secondAttribute="bottom" constant="280" id="laU-i4-Rca"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="60A-kr-Z9a" secondAttribute="trailing" constant="117" id="nbw-bG-ush"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dg1-bB-V0A" secondAttribute="trailing" constant="117" id="pcq-wm-4Lm"/>
+                            <constraint firstItem="dg1-bB-V0A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="wYh-AI-b7O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
